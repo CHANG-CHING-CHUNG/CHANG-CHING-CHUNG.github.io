@@ -39,11 +39,24 @@ hr {
 
 }
 
-footer {
-  background-color: #000;
-}
 
 .copyright {
-  text-align: center;
   color: white;
 }
+
+footer {
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height:70px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+p {
+  margin: auto;
+}
+
+
